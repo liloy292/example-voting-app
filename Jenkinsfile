@@ -12,7 +12,7 @@ pipeline {
             }
           }
           steps{
-            echo 'Compiling vote app'
+            echo 'Compiling vote app 1'
             dir('vote'){
               sh 'pip install -r requirements.txt'
             }
